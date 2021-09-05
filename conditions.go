@@ -1,4 +1,4 @@
-package main
+package veriflag
 
 func InListint(list []int) func(x int) bool {
 	return func(x int) bool {

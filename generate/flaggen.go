@@ -39,7 +39,7 @@ func main() {
 		return
 	}
 	defer fl.Close()
-	fl.WriteString("package main\n")
+	fl.WriteString("package veriflag\n")
 	typenames := []string{"int", "int32", "int64", "string", "float32", "float64", "uint", "uint32", "uint64"}
 	for _, typename := range typenames {
 
