@@ -1,1 +1,1 @@
-go run generate/flaggen.go
+go run generate/gen_conditions.go
